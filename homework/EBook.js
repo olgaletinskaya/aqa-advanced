@@ -30,6 +30,7 @@ class EBook extends Book {
     return new EBook(book.title, book.author, book.year, format);
   }
 }
+// ESLint и Prettier настроены
 
 // Теперь ESLint не будет ругаться, потому что класс используется через экспорт
 export default EBook;

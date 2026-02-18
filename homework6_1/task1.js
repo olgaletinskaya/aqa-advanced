@@ -5,7 +5,7 @@ function rectangleArea1(width, height) {
 console.log(rectangleArea1(5, 10));
 
 // Function Expression
-const rectangleArea2 = function(width, height) {
+const rectangleArea2 = function (width, height) {
   return width * height;
 };
 console.log(rectangleArea2(5, 10));
